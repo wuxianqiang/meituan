@@ -56,7 +56,7 @@ export default {
   },
   data () {
     return {
-      currentTab: 4,
+      currentTab: 1,
       current: 1
     }
   },

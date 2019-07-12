@@ -1,7 +1,7 @@
 <template>
   <div>
     <page
-      title="美团闪购"
+      title="美团闪购1"
       class="navigator-view"
     >
       <div slot="content">

@@ -30,7 +30,7 @@
           @before-enter="beforeDrop"
         >
           <div
-            v-show="ball.show"
+            v-if="ball.show"
             class="base-shopcart__container--ball"
           >
             <div class="base-shopcart__container--inner inner-hook">
@@ -42,7 +42,7 @@
     <!-- 购物车小球 -->
 
     <transition name="fade">
-      <div class="base-shopcart__list" v-show="fold">
+      <div class="base-shopcart__list" v-if="fold">
         <div class="base-shopcart__list--header">
           <h1 class="base-shopcart__cart">购物车</h1>
           <span class="base-shopcart__clear">清空</span>
